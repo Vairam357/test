@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MRB DEMO IB Smoke Suite" duration-ms="135165" started-at="2021-04-21T15:16:42Z" finished-at="2021-04-21T15:18:57Z">
+    <groups>
+    </groups>
+    <test name="MRB DEMO IB Smoke Suite" duration-ms="135165" started-at="2021-04-21T15:16:42Z" finished-at="2021-04-21T15:18:57Z">
+      <class name="testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login@527e5409]" name="setData" is-config="true" duration-ms="0" started-at="2021-04-21T20:47:26Z" finished-at="2021-04-21T20:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login@527e5409]" name="beforeMethod" is-config="true" duration-ms="3520" started-at="2021-04-21T20:47:26Z" finished-at="2021-04-21T20:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAuthScreen()[pri:0, instance:testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login@527e5409]" name="verifyAuthScreen" duration-ms="43526" started-at="2021-04-21T20:47:30Z" finished-at="2021-04-21T20:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthScreen -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login@527e5409]" name="afterMethod" is-config="true" duration-ms="653" started-at="2021-04-21T20:48:14Z" finished-at="2021-04-21T20:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login -->
+      <class name="testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB@1198b989]" name="setData" is-config="true" duration-ms="0" started-at="2021-04-21T20:48:14Z" finished-at="2021-04-21T20:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB@1198b989]" name="beforeMethod" is-config="true" duration-ms="3553" started-at="2021-04-21T20:48:14Z" finished-at="2021-04-21T20:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAuthScreen()[pri:0, instance:testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB@1198b989]" name="verifyAuthScreen" duration-ms="38688" started-at="2021-04-21T20:48:18Z" finished-at="2021-04-21T20:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthScreen -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB@1198b989]" name="afterMethod" is-config="true" duration-ms="684" started-at="2021-04-21T20:48:56Z" finished-at="2021-04-21T20:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB -->
+      <class name="testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="beforeSuite" is-config="true" duration-ms="101" started-at="2021-04-21T20:46:42Z" finished-at="2021-04-21T20:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="beforeTest" is-config="true" duration-ms="15" started-at="2021-04-21T20:46:42Z" finished-at="2021-04-21T20:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="setData" is-config="true" duration-ms="0" started-at="2021-04-21T20:46:42Z" finished-at="2021-04-21T20:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="beforeMethod" is-config="true" duration-ms="3853" started-at="2021-04-21T20:46:42Z" finished-at="2021-04-21T20:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAuthScreen()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="verifyAuthScreen" duration-ms="39852" started-at="2021-04-21T20:46:46Z" finished-at="2021-04-21T20:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthScreen -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="afterMethod" is-config="true" duration-ms="816" started-at="2021-04-21T20:47:26Z" finished-at="2021-04-21T20:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-21T20:48:57Z" finished-at="2021-04-21T20:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials@fdefd3f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-04-21T20:48:57Z" finished-at="2021-04-21T20:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials -->
+    </test> <!-- MRB DEMO IB Smoke Suite -->
+  </suite> <!-- MRB DEMO IB Smoke Suite -->
+</testng-results>

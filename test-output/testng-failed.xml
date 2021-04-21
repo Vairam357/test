@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MRB DEMO IB Smoke Suite]" parallel="none">
+  <test name="MRB DEMO IB Smoke Suite(failed)" parallel="none">
+    <classes>
+      <class name="testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login">
+        <methods>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.DEMO.login.E2E02_Verify_User_able_to_Logout_Successfully_from_MRB_After_Login -->
+      <class name="testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DEMO.login.E2E01_Verify_User_able_to_Login_into_MRB_Successfully_with_Valid_Credentials -->
+      <class name="testcases.DEMO.registration.E2E01_Verify_User_able_to_Complete_Registration_Process_Using_Account_Details">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyAuthScreen"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.DEMO.registration.E2E01_Verify_User_able_to_Complete_Registration_Process_Using_Account_Details -->
+      <class name="testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.DEMO.login.E2E03_Verify_User_able_to_verify_Dashboard_Page_in_MRB -->
+    </classes>
+  </test> <!-- MRB DEMO IB Smoke Suite(failed) -->
+</suite> <!-- Failed suite [MRB DEMO IB Smoke Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MRB Demo Admin Smoke Suite">
+
+	<!-- MRB Automation -->
+
+	<test name="MRB Demo Admin Smoke Suite" preserve-order="true" thread-count="1">
+
+		<classes>
+			<class name="testcases.DEMO.admin.login.E2E01_Verify_User_able_to_Login_into_MRB_Admin_Successfully_with_Valid_Credentials" />
+			<class name="testcases.DEMO.admin.login.E2E02_Verify_User_able_to_Logout_from_MRB_Admin_After_Successful_Login" />
+			<class name="testcases.DEMO.admin.customerManagement.E2E02_Verify_User_able_to_Activate_and_Approve_User_Successfully_in_Admin" />
+			<class name="testcases.DEMO.admin.customerManagement.E2E03_Verify_User_able_to_View_Data_of_the_User_in_Admin" />
+		</classes>
+
+	</test>
+
+</suite>
